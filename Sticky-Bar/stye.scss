@@ -1,0 +1,47 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+    padding: 50px 5%;
+}
+
+
+
+.sticky-bar {
+    display: block;
+    width: 100%;
+    padding: 0 3%;
+    margin: 0 auto;
+    background: green;
+    top: 0;
+    transition: all .5s ease;
+
+    ul {
+        list-style: none;
+        display: flex;
+
+        li {
+            font-size: 16px;
+            flex: 1 1 auto;
+            background: green;
+            color: white;
+            padding: 15px;
+        }
+    }
+}
+
+// sticky bar
+.sticky .sticky-bar {
+    position: fixed;
+    box-shadow: 0 5px 5px rgba(0,0,0, 0.1);
+}
+
+
+
+
