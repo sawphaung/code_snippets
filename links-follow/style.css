@@ -1,0 +1,51 @@
+body {
+  margin: 50px auto;
+  width: 100%;
+  max-width: 1280px;
+  padding: 0 25px;
+  height: 200vh;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+nav ul li {
+  display: block;
+}
+nav ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  text-decoration: none;
+}
+
+article {
+  padding: 50px 0;
+}
+article p {
+  line-height: 1.5;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.highlight {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: greenyellow;
+  border-radius: 10px;
+  z-index: -1;
+  transition: all 0.3s ease;
+}/*# sourceMappingURL=style.css.map */
